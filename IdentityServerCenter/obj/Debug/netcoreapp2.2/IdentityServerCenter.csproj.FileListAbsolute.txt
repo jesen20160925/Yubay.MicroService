@@ -1,0 +1,14 @@
+F:\Repo\Yubay.MicroService\IdentityServerCenter\bin\Debug\netcoreapp2.2\IdentityServerCenter.deps.json
+F:\Repo\Yubay.MicroService\IdentityServerCenter\bin\Debug\netcoreapp2.2\IdentityServerCenter.runtimeconfig.json
+F:\Repo\Yubay.MicroService\IdentityServerCenter\bin\Debug\netcoreapp2.2\IdentityServerCenter.runtimeconfig.dev.json
+F:\Repo\Yubay.MicroService\IdentityServerCenter\bin\Debug\netcoreapp2.2\IdentityServerCenter.dll
+F:\Repo\Yubay.MicroService\IdentityServerCenter\obj\Debug\netcoreapp2.2\IdentityServerCenter.csprojAssemblyReference.cache
+F:\Repo\Yubay.MicroService\IdentityServerCenter\obj\Debug\netcoreapp2.2\IdentityServerCenter.csproj.CoreCompileInputs.cache
+F:\Repo\Yubay.MicroService\IdentityServerCenter\obj\Debug\netcoreapp2.2\IdentityServerCenter.RazorAssemblyInfo.cache
+F:\Repo\Yubay.MicroService\IdentityServerCenter\obj\Debug\netcoreapp2.2\IdentityServerCenter.RazorAssemblyInfo.cs
+F:\Repo\Yubay.MicroService\IdentityServerCenter\obj\Debug\netcoreapp2.2\IdentityServerCenter.AssemblyInfoInputs.cache
+F:\Repo\Yubay.MicroService\IdentityServerCenter\obj\Debug\netcoreapp2.2\IdentityServerCenter.AssemblyInfo.cs
+F:\Repo\Yubay.MicroService\IdentityServerCenter\obj\Debug\netcoreapp2.2\IdentityServerCenter.RazorTargetAssemblyInfo.cache
+F:\Repo\Yubay.MicroService\IdentityServerCenter\bin\Debug\netcoreapp2.2\IdentityServerCenter.pdb
+F:\Repo\Yubay.MicroService\IdentityServerCenter\obj\Debug\netcoreapp2.2\IdentityServerCenter.dll
+F:\Repo\Yubay.MicroService\IdentityServerCenter\obj\Debug\netcoreapp2.2\IdentityServerCenter.pdb
