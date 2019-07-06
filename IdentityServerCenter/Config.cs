@@ -1,4 +1,5 @@
 ﻿using IdentityServer4.Models;
+using IdentityServer4.Test;
 using System.Collections.Generic;
 
 namespace IdentityServerCenter
@@ -33,8 +34,37 @@ namespace IdentityServerCenter
 					AllowedGrantTypes = { GrantType.ClientCredentials }, //授权类型
 					ClientSecrets = { new Secret("secret".Sha256()) }, //密钥
 					AllowedScopes = { "api" } //指定客户端可以访问Resource为api的资源
+				},
+
+				new Client()
+				{
+					ClientId = "pwdClient", //客户端Id
+					AllowedGrantTypes = { GrantType.ResourceOwnerPassword }, //授权类型
+					ClientSecrets = { new Secret("secret".Sha256()) }, //密钥
+
+					RequireClientSecret = false, //如果将RequireClientSecret设为false，则客户端访问不需要传递secret
+
+					AllowedScopes = { "api" } //指定客户端可以访问Resource为api的资源
 				}
+
 			};
 		}
+
+
+		/// <summary>
+		/// 密码模式需要用户
+		/// </summary>
+		/// <returns></returns>
+		public static List<TestUser> GetTestUsers()
+		{
+			return new List<TestUser> { new TestUser()
+			{
+				 SubjectId = "1",
+				  Username="jesen",
+				   Password = "123456"
+			}
+			};
+		}
+
 	}
 }

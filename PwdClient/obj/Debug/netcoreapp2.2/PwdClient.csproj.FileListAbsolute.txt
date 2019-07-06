@@ -1,0 +1,11 @@
+F:\Repo\Yubay.MicroService\PwdClient\bin\Debug\netcoreapp2.2\PwdClient.deps.json
+F:\Repo\Yubay.MicroService\PwdClient\bin\Debug\netcoreapp2.2\PwdClient.runtimeconfig.json
+F:\Repo\Yubay.MicroService\PwdClient\bin\Debug\netcoreapp2.2\PwdClient.runtimeconfig.dev.json
+F:\Repo\Yubay.MicroService\PwdClient\bin\Debug\netcoreapp2.2\PwdClient.dll
+F:\Repo\Yubay.MicroService\PwdClient\obj\Debug\netcoreapp2.2\PwdClient.csproj.CoreCompileInputs.cache
+F:\Repo\Yubay.MicroService\PwdClient\obj\Debug\netcoreapp2.2\PwdClient.AssemblyInfoInputs.cache
+F:\Repo\Yubay.MicroService\PwdClient\obj\Debug\netcoreapp2.2\PwdClient.AssemblyInfo.cs
+F:\Repo\Yubay.MicroService\PwdClient\bin\Debug\netcoreapp2.2\PwdClient.pdb
+F:\Repo\Yubay.MicroService\PwdClient\obj\Debug\netcoreapp2.2\PwdClient.dll
+F:\Repo\Yubay.MicroService\PwdClient\obj\Debug\netcoreapp2.2\PwdClient.pdb
+F:\Repo\Yubay.MicroService\PwdClient\obj\Debug\netcoreapp2.2\PwdClient.csprojAssemblyReference.cache
