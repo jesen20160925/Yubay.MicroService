@@ -30,3 +30,5 @@ F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNe
 F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.csprojAssemblyReference.cache
 F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs
 F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
+F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\Razor\Views\Consent\Index.g.cshtml.cs
+F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\Razor\Views\Consent\_ScopeListItem.g.cshtml.cs

@@ -1,0 +1,30 @@
+﻿@using AspNetCoreMvcAuthSample.ViewModel;
+
+@model  ScopeViewModel
+
+<li>
+	<label>
+		<input type="checkbox" name="ScopesConsented" id="scopes_@Model.Name"
+			   value="@Model.Name" checked ="@Model.Checked" required="@Model.Required"  disabled="@Model.Required"
+			   />
+
+		@if (Model.Required)
+		{
+			<input type="hidden" name="ScopesConsented" value="@Model.Name" />
+		}
+
+		<strong>@Model.Name</strong>
+		@if (Model.Emphasize)
+		{
+			<span class="glyphicon glyphicon-exlamation-sign"></span>
+		}
+
+	</label>
+
+	@if (string.IsNullOrEmpty(Model.Desription))
+	{
+		<div>
+			<label for="scopes_@Model.Name">@Model.Desription</label>
+		</div>
+	}
+</li>
