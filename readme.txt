@@ -4,3 +4,6 @@
 通讯录	contact.yubay.cn
 项目	project.yubay.cn
 消息	message.yubay.cn
+
+
+IdentityServer4 中文文档与实战: https://www.cnblogs.com/stulzq/p /8119928.html 

@@ -9,3 +9,13 @@ F:\Repo\Yubay.MicroService\ThirdPartyClient\obj\Debug\netcoreapp2.2\ThirdPartyCl
 F:\Repo\Yubay.MicroService\ThirdPartyClient\bin\Debug\netcoreapp2.2\ThirdPartyClient.pdb
 F:\Repo\Yubay.MicroService\ThirdPartyClient\obj\Debug\netcoreapp2.2\ThirdPartyClient.dll
 F:\Repo\Yubay.MicroService\ThirdPartyClient\obj\Debug\netcoreapp2.2\ThirdPartyClient.pdb
+G:\repo\Yubay.MicroService\ThirdPartyClient\bin\Debug\netcoreapp2.2\ThirdPartyClient.deps.json
+G:\repo\Yubay.MicroService\ThirdPartyClient\bin\Debug\netcoreapp2.2\ThirdPartyClient.runtimeconfig.json
+G:\repo\Yubay.MicroService\ThirdPartyClient\bin\Debug\netcoreapp2.2\ThirdPartyClient.runtimeconfig.dev.json
+G:\repo\Yubay.MicroService\ThirdPartyClient\bin\Debug\netcoreapp2.2\ThirdPartyClient.dll
+G:\repo\Yubay.MicroService\ThirdPartyClient\bin\Debug\netcoreapp2.2\ThirdPartyClient.pdb
+G:\repo\Yubay.MicroService\ThirdPartyClient\obj\Debug\netcoreapp2.2\ThirdPartyClient.csproj.CoreCompileInputs.cache
+G:\repo\Yubay.MicroService\ThirdPartyClient\obj\Debug\netcoreapp2.2\ThirdPartyClient.AssemblyInfoInputs.cache
+G:\repo\Yubay.MicroService\ThirdPartyClient\obj\Debug\netcoreapp2.2\ThirdPartyClient.AssemblyInfo.cs
+G:\repo\Yubay.MicroService\ThirdPartyClient\obj\Debug\netcoreapp2.2\ThirdPartyClient.dll
+G:\repo\Yubay.MicroService\ThirdPartyClient\obj\Debug\netcoreapp2.2\ThirdPartyClient.pdb

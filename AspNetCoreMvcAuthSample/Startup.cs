@@ -26,8 +26,8 @@ namespace AspNetCoreMvcAuthSample
 		{
 
 			services.AddIdentityServer()
-				.AddDeveloperSigningCredential()
-				.AddInMemoryClients(Config.GetClients())
+				.AddDeveloperSigningCredential() //会创建一个用于对token签名的临时密钥材料(但是在生产环境中应该使用可持久的密钥材料)
+                .AddInMemoryClients(Config.GetClients())
 				.AddInMemoryApiResources(Config.GetResource())
 				.AddInMemoryIdentityResources(Config.GetIdentityResources())
 				.AddTestUsers(Config.GetTestUsers());
