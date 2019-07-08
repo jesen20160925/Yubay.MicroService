@@ -27,7 +27,6 @@ F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNe
 F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.dll
 F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.pdb
 F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.csproj.CopyComplete
-F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.csprojAssemblyReference.cache
 F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs
 F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
 F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\Razor\Views\Consent\Index.g.cshtml.cs
@@ -66,3 +65,4 @@ G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNe
 G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\bin\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.pdb
 G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\bin\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.Views.pdb
 G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.csproj.CopyComplete
+F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.csprojAssemblyReference.cache

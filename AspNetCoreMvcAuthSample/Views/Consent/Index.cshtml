@@ -24,7 +24,7 @@
 
                 <input type="hidden" asp-for="ReturnUrl" />
 
-				@if (ViewContext.ModelState.IsValid)
+				@if (!ViewContext.ModelState.IsValid)
 				{
 					<div class="alert alert-danger">
 						<strong>Error</strong>

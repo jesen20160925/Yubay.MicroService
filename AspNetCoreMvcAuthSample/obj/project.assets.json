@@ -38,6 +38,19 @@
           "lib/netstandard2.0/IdentityServer4.dll": {}
         }
       },
+      "IdentityServer4.AspNetIdentity/2.4.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityServer4": "2.4.0",
+          "Microsoft.AspNetCore.Identity": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityServer4.AspNetIdentity.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.AspNetIdentity.dll": {}
+        }
+      },
       "IdentityServer4.Storage/2.4.0": {
         "type": "package",
         "dependencies": {
@@ -4805,6 +4818,20 @@
         "lib/netstandard2.0/IdentityServer4.dll",
         "lib/netstandard2.0/IdentityServer4.pdb",
         "lib/netstandard2.0/IdentityServer4.xml"
+      ]
+    },
+    "IdentityServer4.AspNetIdentity/2.4.0": {
+      "sha512": "CxxdBIyX33WS69AH43lnSS0W0He71QvNpOE1t7aKnE97oZd2nZQ4GTVNTyitw8r4GZn/fz0J0eApmX/SSphdlg==",
+      "type": "package",
+      "path": "identityserver4.aspnetidentity/2.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "identityserver4.aspnetidentity.2.4.0.nupkg.sha512",
+        "identityserver4.aspnetidentity.nuspec",
+        "lib/netstandard2.0/IdentityServer4.AspNetIdentity.dll",
+        "lib/netstandard2.0/IdentityServer4.AspNetIdentity.pdb",
+        "lib/netstandard2.0/IdentityServer4.AspNetIdentity.xml"
       ]
     },
     "IdentityServer4.Storage/2.4.0": {
@@ -13031,6 +13058,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "IdentityServer4 >= 2.4.0",
+      "IdentityServer4.AspNetIdentity >= 2.4.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
@@ -13082,6 +13110,10 @@
       "netcoreapp2.2": {
         "dependencies": {
           "IdentityServer4": {
+            "target": "Package",
+            "version": "[2.4.0, )"
+          },
+          "IdentityServer4.AspNetIdentity": {
             "target": "Package",
             "version": "[2.4.0, )"
           },

@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AspNetCoreMvcAuthSample.Data;
 using AspNetCoreMvcAuthSample.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -25,13 +28,23 @@ namespace AspNetCoreMvcAuthSample
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
 		{
+			services.AddDbContext<ApplicationDbContext>(options =>
+			{
+				options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+			});
+
+			services.AddIdentity<IdentityUser, IdentityRole>()
+				.AddEntityFrameworkStores<ApplicationDbContext>()
+				.AddDefaultTokenProviders();
+
 
 			services.AddIdentityServer()
 				.AddDeveloperSigningCredential() //会创建一个用于对token签名的临时密钥材料(但是在生产环境中应该使用可持久的密钥材料)
-                .AddInMemoryClients(Config.GetClients())
+				.AddInMemoryClients(Config.GetClients())
 				.AddInMemoryApiResources(Config.GetResource())
 				.AddInMemoryIdentityResources(Config.GetIdentityResources())
-				.AddTestUsers(Config.GetTestUsers());
+				//.AddTestUsers(Config.GetTestUsers());
+				.AddAspNetIdentity<IdentityUser>();
 
 			//services.Configure<CookiePolicyOptions>(options =>
 			//{
