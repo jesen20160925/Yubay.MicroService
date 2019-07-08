@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Authentication;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace MVCClient
 {
@@ -31,7 +32,10 @@ namespace MVCClient
 				options.MinimumSameSitePolicy = SameSiteMode.None;
 			});
 
-			services.AddAuthentication(options =>
+            JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
+
+
+            services.AddAuthentication(options =>
 			{
 				options.DefaultScheme = "Cookies";
 				options.DefaultChallengeScheme = "oidc"; //open id connect
