@@ -24,6 +24,14 @@
 
                 <input type="hidden" asp-for="ReturnUrl" />
 
+				@if (ViewContext.ModelState.IsValid)
+				{
+					<div class="alert alert-danger">
+						<strong>Error</strong>
+						<div asp-validation-summary="All" class="danger"></div>
+					</div>
+				}
+
                 @if (Model.IdentityScopes.Any())
                 {
                     <div class="panel">
