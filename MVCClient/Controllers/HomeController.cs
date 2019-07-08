@@ -27,5 +27,14 @@ namespace MVCClient.Controllers
 		{
 			return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
 		}
+
+        /// <summary>
+        /// 将清除本地cookie，然后重定向到IdentityServer。IdentityServer将清除其cookie，然后为用户提供返回MVC应用程序的链接。
+        /// </summary>
+        /// <returns></returns>
+        public IActionResult Logout()
+        {
+            return SignOut("Cookies", "oidc");
+        }
 	}
 }
