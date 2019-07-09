@@ -48,6 +48,11 @@ namespace AspNetCoreMvcAuthSample.Services
             return claims;
         }
 
+        /// <summary>
+        /// 只要有关用户的身份信息单元被请求（例如在令牌创建期间或通过用户信息终点），就会调用此方法
+        /// </summary>
+        /// <param name="context"></param>
+        /// <returns></returns>
         public async Task GetProfileDataAsync(ProfileDataRequestContext context)
         {
             var subjectId = context.Subject.Claims.Where(c => c.Type == "sub").FirstOrDefault().Value;
@@ -56,6 +61,11 @@ namespace AspNetCoreMvcAuthSample.Services
             context.IssuedClaims = await GetClaimsFromUser(user);
         }
 
+        /// <summary>
+        /// 验证用户是否有效，例如：token创建或者验证
+        /// </summary>
+        /// <param name="context"></param>
+        /// <returns></returns>
         public async Task IsActiveAsync(IsActiveContext context)
         {
             context.IsActive = false;
