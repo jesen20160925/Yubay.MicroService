@@ -48,6 +48,7 @@ namespace AspNetCoreMvcAuthSample
 
 			services.AddIdentityServer()
 				.AddDeveloperSigningCredential() //会创建一个用于对token签名的临时密钥材料(但是在生产环境中应该使用可持久的密钥材料)
+                //.AddDeveloperSigningCredential("tempkey.rsa") //AddDeveloperSigningCredential中代码执行，会先判断tempkey.rsa证书文件是否存在，如果不存在的话，就创建一个新的tempkey.rsa证书文件，如果存在的话，就使用此证书文件。
 				//.AddInMemoryClients(Config.GetClients())
 				//.AddInMemoryApiResources(Config.GetResource())
 				//.AddInMemoryIdentityResources(Config.GetIdentityResources())
