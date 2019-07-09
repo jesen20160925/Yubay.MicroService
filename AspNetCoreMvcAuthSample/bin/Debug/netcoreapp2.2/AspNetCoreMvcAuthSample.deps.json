@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "f1d2ed5749f5bfab501cd3ffd7614e5c25f4163a"
+    "signature": "dde534309d9d4ad30b9617fb4a0b69b144afc94a"
   },
   "compilationOptions": {
     "defines": [
@@ -26,6 +26,7 @@
         "dependencies": {
           "IdentityServer4": "2.4.0",
           "IdentityServer4.AspNetIdentity": "2.4.0",
+          "IdentityServer4.EntityFramework": "2.4.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
@@ -36,6 +37,21 @@
         },
         "compile": {
           "AspNetCoreMvcAuthSample.dll": {}
+        }
+      },
+      "AutoMapper/8.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
       "IdentityModel/3.10.6": {
@@ -91,6 +107,37 @@
         },
         "compile": {
           "lib/netstandard2.0/IdentityServer4.AspNetIdentity.dll": {}
+        }
+      },
+      "IdentityServer4.EntityFramework/2.4.0": {
+        "dependencies": {
+          "IdentityServer4": "2.4.0",
+          "IdentityServer4.EntityFramework.Storage": "2.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.EntityFramework.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityServer4.EntityFramework.dll": {}
+        }
+      },
+      "IdentityServer4.EntityFramework.Storage/2.4.0": {
+        "dependencies": {
+          "AutoMapper": "8.0.0",
+          "IdentityServer4.Storage": "2.4.0",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.EntityFramework.Storage.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityServer4.EntityFramework.Storage.dll": {}
         }
       },
       "IdentityServer4.Storage/2.4.0": {
@@ -3606,6 +3653,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AutoMapper/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-px8ZMtIq84dxciB29V+ZYOtsRLZP4JlflDDMW13LyeRdwsnIInzlcSHSxpWmVD6U3bbOl2FeLlgomnVtm0jvXw==",
+      "path": "automapper/8.0.0",
+      "hashPath": "automapper.8.0.0.nupkg.sha512"
+    },
     "IdentityModel/3.10.6": {
       "type": "package",
       "serviceable": true,
@@ -3626,6 +3680,20 @@
       "sha512": "sha512-CxxdBIyX33WS69AH43lnSS0W0He71QvNpOE1t7aKnE97oZd2nZQ4GTVNTyitw8r4GZn/fz0J0eApmX/SSphdlg==",
       "path": "identityserver4.aspnetidentity/2.4.0",
       "hashPath": "identityserver4.aspnetidentity.2.4.0.nupkg.sha512"
+    },
+    "IdentityServer4.EntityFramework/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ejA1UGAQBjsWJpXZlGJfzRPbHjWOM7IYMEN+wpML75R2S6lfrhMOru2PaplsRXuZhD+BVln4BCruF/3JZXB5Vw==",
+      "path": "identityserver4.entityframework/2.4.0",
+      "hashPath": "identityserver4.entityframework.2.4.0.nupkg.sha512"
+    },
+    "IdentityServer4.EntityFramework.Storage/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ak4mRRVWWpxuz7rpvlQ/W3AK1XUWRBqz9XRMn/9Lab7aBCGTnxIHRG6kKw7pLcf1Dl7v1q9qYZQK6Ez7f9qRrQ==",
+      "path": "identityserver4.entityframework.storage/2.4.0",
+      "hashPath": "identityserver4.entityframework.storage.2.4.0.nupkg.sha512"
     },
     "IdentityServer4.Storage/2.4.0": {
       "type": "package",

@@ -48,9 +48,10 @@ namespace MVCClient
 				options.Authority = "http://localhost:5000";
 				options.RequireHttpsMetadata = false;
 
-                options.ResponseType = OpenIdConnectResponseType.CodeIdToken;
+                options.ResponseType = OpenIdConnectResponseType.CodeIdToken; // Autherization code 、Id Token
+                //options.ResponseType = OpenIdConnectResponseType.CodeIdTokenToken; //Autherization code 、Id Token、AccessToken
 
-				options.ClientId = "mvc";
+                options.ClientId = "mvc";
 				options.ClientSecret = "secret";
 				options.SaveTokens = true;
 
@@ -61,10 +62,10 @@ namespace MVCClient
                 //options.ClaimActions.MapJsonKey("avatar", "avatar");
                 //options.ClaimActions.MapCustomJson("role", jobj => jobj["role"].ToString());
 
-                //options.Scope.Add("offline_access");
-                //options.Scope.Add("openid");
-                //options.Scope.Add("profile");
-			});
+                options.Scope.Add("offline_access");
+                options.Scope.Add("openid");
+                options.Scope.Add("profile");
+            });
 
 			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 		}

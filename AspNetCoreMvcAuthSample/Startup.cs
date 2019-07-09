@@ -15,6 +15,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using IdentityServer4.EntityFramework;
+using IdentityServer4.EntityFramework.DbContexts;
+using System.Reflection;
+using IdentityServer4.EntityFramework.Mappers;
 
 namespace AspNetCoreMvcAuthSample
 {
@@ -30,6 +34,8 @@ namespace AspNetCoreMvcAuthSample
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
 		{
+            var migrationAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
+
 			services.AddDbContext<ApplicationDbContext>(options =>
 			{
 				options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
@@ -42,13 +48,30 @@ namespace AspNetCoreMvcAuthSample
 
 			services.AddIdentityServer()
 				.AddDeveloperSigningCredential() //会创建一个用于对token签名的临时密钥材料(但是在生产环境中应该使用可持久的密钥材料)
-				.AddInMemoryClients(Config.GetClients())
-				.AddInMemoryApiResources(Config.GetResource())
-				.AddInMemoryIdentityResources(Config.GetIdentityResources())
+				//.AddInMemoryClients(Config.GetClients())
+				//.AddInMemoryApiResources(Config.GetResource())
+				//.AddInMemoryIdentityResources(Config.GetIdentityResources())
+
+                .AddConfigurationStore(options =>
+                {
+                    options.ConfigureDbContext = builder =>
+                    {
+                        builder.UseSqlServer(Configuration.GetConnectionString("IdentityServerConnection"), sql => sql.MigrationsAssembly(migrationAssembly));
+                    };
+                })
+                .AddOperationalStore(options =>
+                {
+                    options.ConfigureDbContext = builder =>
+                    {
+                        builder.UseSqlServer(Configuration.GetConnectionString("IdentityServerConnection"), sql => sql.MigrationsAssembly(migrationAssembly));
+                    };
+                })
+
 				//.AddTestUsers(Config.GetTestUsers());
 				.AddAspNetIdentity<ApplicationUser>()
                 .Services.AddScoped<IProfileService,ProfileService>();
 
+           // IdentityServer4.EntityFramework.DbContexts.PersistedGrantDbContext
 
             //配置密码等一些规则
             services.Configure<IdentityOptions>(options =>
@@ -98,6 +121,8 @@ namespace AspNetCoreMvcAuthSample
 				app.UseExceptionHandler("/Home/Error");
 			}
 
+            InitIdentityServerDb(app);
+
 			app.UseStaticFiles();
 			app.UseCookiePolicy();
 
@@ -112,5 +137,40 @@ namespace AspNetCoreMvcAuthSample
 					template: "{controller=Home}/{action=Index}/{id?}");
 			});
 		}
+
+
+        public void InitIdentityServerDb(IApplicationBuilder app)
+        {
+            using (var scope = app.ApplicationServices.CreateScope())
+            {
+                scope.ServiceProvider.GetRequiredService<PersistedGrantDbContext>()
+                    .Database.Migrate();
+                var configurationDbContext = scope.ServiceProvider.GetRequiredService<ConfigurationDbContext>();
+                if (!configurationDbContext.Clients.Any())
+                {
+                    foreach(var client in Config.GetClients())
+                    {
+                        configurationDbContext.Clients.Add(client.ToEntity());
+                    }
+                }
+                if (!configurationDbContext.ApiResources.Any())
+                {
+                    foreach (var api in Config.GetResource())
+                    {
+                        configurationDbContext.ApiResources.Add(api.ToEntity());
+                    }
+                }
+                if (!configurationDbContext.IdentityResources.Any())
+                {
+                    foreach (var identity in Config.GetIdentityResources())
+                    {
+                        configurationDbContext.IdentityResources.Add(identity.ToEntity());
+                    }
+                }
+
+                configurationDbContext.SaveChanges();
+            }
+        }
+
 	}
 }
