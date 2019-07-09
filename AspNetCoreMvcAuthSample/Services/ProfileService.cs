@@ -11,6 +11,8 @@ using System.Threading.Tasks;
 
 namespace AspNetCoreMvcAuthSample.Services
 {
+    //IProfileService接口，他是专门用来装载我们需要的Claim信息的，比如在token创建期间和请求用户信息终结点
+    //是会调用它的GetProfileDataAsync方法来根据请求需要的Claim类型，来为我们装载信息，
     public class ProfileService : IProfileService
     {
         private UserManager<ApplicationUser> _userManager;
