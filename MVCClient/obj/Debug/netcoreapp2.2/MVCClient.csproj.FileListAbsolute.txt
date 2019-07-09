@@ -28,11 +28,14 @@ F:\Repo\Yubay.MicroService\MVCClient\obj\Debug\netcoreapp2.2\MVCClient.Views.pdb
 F:\Repo\Yubay.MicroService\MVCClient\obj\Debug\netcoreapp2.2\MVCClient.dll
 F:\Repo\Yubay.MicroService\MVCClient\obj\Debug\netcoreapp2.2\MVCClient.pdb
 F:\Repo\Yubay.MicroService\MVCClient\obj\Debug\netcoreapp2.2\MVCClient.csproj.CopyComplete
-G:\repo\Yubay.MicroService\MVCClient\bin\Debug\netcoreapp2.2\MVCClient.dll
-G:\repo\Yubay.MicroService\MVCClient\bin\Debug\netcoreapp2.2\MVCClient.Views.dll
 G:\repo\Yubay.MicroService\MVCClient\bin\Debug\netcoreapp2.2\MVCClient.deps.json
 G:\repo\Yubay.MicroService\MVCClient\bin\Debug\netcoreapp2.2\MVCClient.runtimeconfig.json
 G:\repo\Yubay.MicroService\MVCClient\bin\Debug\netcoreapp2.2\MVCClient.runtimeconfig.dev.json
+G:\repo\Yubay.MicroService\MVCClient\bin\Debug\netcoreapp2.2\MVCClient.dll
+G:\repo\Yubay.MicroService\MVCClient\bin\Debug\netcoreapp2.2\MVCClient.pdb
+G:\repo\Yubay.MicroService\MVCClient\bin\Debug\netcoreapp2.2\MVCClient.Views.dll
+G:\repo\Yubay.MicroService\MVCClient\bin\Debug\netcoreapp2.2\MVCClient.Views.pdb
+G:\repo\Yubay.MicroService\MVCClient\obj\Debug\netcoreapp2.2\MVCClient.csprojAssemblyReference.cache
 G:\repo\Yubay.MicroService\MVCClient\obj\Debug\netcoreapp2.2\MVCClient.csproj.CoreCompileInputs.cache
 G:\repo\Yubay.MicroService\MVCClient\obj\Debug\netcoreapp2.2\MVCClient.RazorAssemblyInfo.cache
 G:\repo\Yubay.MicroService\MVCClient\obj\Debug\netcoreapp2.2\MVCClient.RazorAssemblyInfo.cs
@@ -54,7 +57,4 @@ G:\repo\Yubay.MicroService\MVCClient\obj\Debug\netcoreapp2.2\MVCClient.RazorTarg
 G:\repo\Yubay.MicroService\MVCClient\obj\Debug\netcoreapp2.2\MVCClient.Views.pdb
 G:\repo\Yubay.MicroService\MVCClient\obj\Debug\netcoreapp2.2\MVCClient.dll
 G:\repo\Yubay.MicroService\MVCClient\obj\Debug\netcoreapp2.2\MVCClient.pdb
-G:\repo\Yubay.MicroService\MVCClient\bin\Debug\netcoreapp2.2\MVCClient.pdb
-G:\repo\Yubay.MicroService\MVCClient\bin\Debug\netcoreapp2.2\MVCClient.Views.pdb
 G:\repo\Yubay.MicroService\MVCClient\obj\Debug\netcoreapp2.2\MVCClient.csproj.CopyComplete
-G:\repo\Yubay.MicroService\MVCClient\obj\Debug\netcoreapp2.2\MVCClient.csprojAssemblyReference.cache

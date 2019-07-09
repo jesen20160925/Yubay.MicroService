@@ -17,24 +17,25 @@ namespace AspNetCoreMvcAuthSample
 		public static void Main(string[] args)
 		{
 			var host = CreateWebHostBuilder(args).UseUrls("http://localhost:5000").Build();
-			
-			//host.MigrateDbContext
 
-			using(var scope = host.Services.CreateScope())
-			{
-				var services = scope.ServiceProvider;
-				try
-				{
-					new ApplicationDbContextSeed().SeedAsync(services).Wait();
-				}
-				catch(Exception ex)
-				{
-					var logger = services.GetRequiredService<ILogger<Program>>();
-					logger.LogError(ex, "An error occurred seeding the DB.");
-				}
-			}
+            //host.MigrateDbContext
 
-			host.Run();
+
+            using (var scope = host.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                try
+                {
+                    new ApplicationDbContextSeed().SeedAsync(services).Wait();
+                }
+                catch (Exception ex)
+                {
+                    var logger = services.GetRequiredService<ILogger<Program>>();
+                    logger.LogError(ex, "An error occurred seeding the DB.");
+                }
+            }
+
+            host.Run();
 		}
 
 		public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>

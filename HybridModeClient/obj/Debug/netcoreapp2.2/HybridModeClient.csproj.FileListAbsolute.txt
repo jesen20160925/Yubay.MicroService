@@ -2,6 +2,10 @@ G:\repo\Yubay.MicroService\HybridModeClient\bin\Debug\netcoreapp2.2\HybridModeCl
 G:\repo\Yubay.MicroService\HybridModeClient\bin\Debug\netcoreapp2.2\HybridModeClient.runtimeconfig.json
 G:\repo\Yubay.MicroService\HybridModeClient\bin\Debug\netcoreapp2.2\HybridModeClient.runtimeconfig.dev.json
 G:\repo\Yubay.MicroService\HybridModeClient\bin\Debug\netcoreapp2.2\HybridModeClient.dll
+G:\repo\Yubay.MicroService\HybridModeClient\bin\Debug\netcoreapp2.2\HybridModeClient.pdb
+G:\repo\Yubay.MicroService\HybridModeClient\bin\Debug\netcoreapp2.2\HybridModeClient.Views.dll
+G:\repo\Yubay.MicroService\HybridModeClient\bin\Debug\netcoreapp2.2\HybridModeClient.Views.pdb
+G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\HybridModeClient.csprojAssemblyReference.cache
 G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\HybridModeClient.csproj.CoreCompileInputs.cache
 G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\HybridModeClient.RazorAssemblyInfo.cache
 G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\HybridModeClient.RazorAssemblyInfo.cs
@@ -10,6 +14,7 @@ G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\HybridModeCl
 G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\HybridModeClient.TagHelpers.input.cache
 G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\HybridModeClient.TagHelpers.output.cache
 G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\HybridModeClient.RazorCoreGenerate.cache
+G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\Razor\Views\Home\CallApi.g.cshtml.cs
 G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
 G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
 G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
@@ -20,12 +25,7 @@ G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\Razor\Views\
 G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
 G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\HybridModeClient.RazorTargetAssemblyInfo.cache
 G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\HybridModeClient.RazorTargetAssemblyInfo.cs
-G:\repo\Yubay.MicroService\HybridModeClient\bin\Debug\netcoreapp2.2\HybridModeClient.pdb
-G:\repo\Yubay.MicroService\HybridModeClient\bin\Debug\netcoreapp2.2\HybridModeClient.Views.dll
-G:\repo\Yubay.MicroService\HybridModeClient\bin\Debug\netcoreapp2.2\HybridModeClient.Views.pdb
-G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\HybridModeClient.csprojAssemblyReference.cache
 G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\HybridModeClient.Views.pdb
 G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\HybridModeClient.dll
 G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\HybridModeClient.pdb
 G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\HybridModeClient.csproj.CopyComplete
-G:\repo\Yubay.MicroService\HybridModeClient\obj\Debug\netcoreapp2.2\Razor\Views\Home\CallApi.g.cshtml.cs

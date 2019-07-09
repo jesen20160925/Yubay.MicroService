@@ -23,12 +23,12 @@ namespace AspNetCoreMvcAuthSample.Controllers
 		//	_users = users;
 		//}
 
-		private UserManager<IdentityUser> _userManager;
-		private SignInManager<IdentityUser> _signInManager;
+		private UserManager<ApplicationUser> _userManager;
+		private SignInManager<ApplicationUser> _signInManager;
 		private IIdentityServerInteractionService _interaction;
 
-		public AccountController(UserManager<IdentityUser> userManager
-			,SignInManager<IdentityUser> signInManager
+		public AccountController(UserManager<ApplicationUser> userManager
+			,SignInManager<ApplicationUser> signInManager
 			,IIdentityServerInteractionService interaction
 			)
 		{
@@ -56,8 +56,8 @@ namespace AspNetCoreMvcAuthSample.Controllers
 			{
 				ViewData["ReturnUrl"] = returnUrl;
 
-				var identityUser = new IdentityUser
-				{
+				var identityUser = new ApplicationUser
+                {
 					Email = registerViewModel.Email,
 					UserName = registerViewModel.Email,
 					NormalizedUserName = registerViewModel.Email

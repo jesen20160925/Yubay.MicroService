@@ -2,13 +2,13 @@ G:\repo\Yubay.MicroService\Api1\bin\Debug\netcoreapp2.2\Api1.deps.json
 G:\repo\Yubay.MicroService\Api1\bin\Debug\netcoreapp2.2\Api1.runtimeconfig.json
 G:\repo\Yubay.MicroService\Api1\bin\Debug\netcoreapp2.2\Api1.runtimeconfig.dev.json
 G:\repo\Yubay.MicroService\Api1\bin\Debug\netcoreapp2.2\Api1.dll
+G:\repo\Yubay.MicroService\Api1\bin\Debug\netcoreapp2.2\Api1.pdb
+G:\repo\Yubay.MicroService\Api1\obj\Debug\netcoreapp2.2\Api1.csprojAssemblyReference.cache
 G:\repo\Yubay.MicroService\Api1\obj\Debug\netcoreapp2.2\Api1.csproj.CoreCompileInputs.cache
 G:\repo\Yubay.MicroService\Api1\obj\Debug\netcoreapp2.2\Api1.RazorAssemblyInfo.cache
 G:\repo\Yubay.MicroService\Api1\obj\Debug\netcoreapp2.2\Api1.RazorAssemblyInfo.cs
 G:\repo\Yubay.MicroService\Api1\obj\Debug\netcoreapp2.2\Api1.AssemblyInfoInputs.cache
 G:\repo\Yubay.MicroService\Api1\obj\Debug\netcoreapp2.2\Api1.AssemblyInfo.cs
 G:\repo\Yubay.MicroService\Api1\obj\Debug\netcoreapp2.2\Api1.RazorTargetAssemblyInfo.cache
-G:\repo\Yubay.MicroService\Api1\bin\Debug\netcoreapp2.2\Api1.pdb
 G:\repo\Yubay.MicroService\Api1\obj\Debug\netcoreapp2.2\Api1.dll
 G:\repo\Yubay.MicroService\Api1\obj\Debug\netcoreapp2.2\Api1.pdb
-G:\repo\Yubay.MicroService\Api1\obj\Debug\netcoreapp2.2\Api1.csprojAssemblyReference.cache

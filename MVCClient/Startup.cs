@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Authentication;
 using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 
 namespace MVCClient
 {
@@ -47,9 +48,22 @@ namespace MVCClient
 				options.Authority = "http://localhost:5000";
 				options.RequireHttpsMetadata = false;
 
+                options.ResponseType = OpenIdConnectResponseType.CodeIdToken;
+
 				options.ClientId = "mvc";
 				options.ClientSecret = "secret";
 				options.SaveTokens = true;
+
+                //options.GetClaimsFromUserInfoEndpoint = true; //发起另一个请求获取Claim
+
+                //options.ClaimActions.MapJsonKey("sub", "sub");
+                //options.ClaimActions.MapJsonKey("preferred_username", "preferred_username");
+                //options.ClaimActions.MapJsonKey("avatar", "avatar");
+                //options.ClaimActions.MapCustomJson("role", jobj => jobj["role"].ToString());
+
+                //options.Scope.Add("offline_access");
+                //options.Scope.Add("openid");
+                //options.Scope.Add("profile");
 			});
 
 			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);

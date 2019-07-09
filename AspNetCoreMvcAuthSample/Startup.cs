@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AspNetCoreMvcAuthSample.Data;
+using AspNetCoreMvcAuthSample.Models;
 using AspNetCoreMvcAuthSample.Services;
+using IdentityServer4.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -33,7 +35,7 @@ namespace AspNetCoreMvcAuthSample
 				options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
 			});
 
-			services.AddIdentity<IdentityUser, IdentityRole>()
+			services.AddIdentity<ApplicationUser, ApplicationUserRole>()
 				.AddEntityFrameworkStores<ApplicationDbContext>()
 				.AddDefaultTokenProviders();
 
@@ -44,7 +46,19 @@ namespace AspNetCoreMvcAuthSample
 				.AddInMemoryApiResources(Config.GetResource())
 				.AddInMemoryIdentityResources(Config.GetIdentityResources())
 				//.AddTestUsers(Config.GetTestUsers());
-				.AddAspNetIdentity<IdentityUser>();
+				.AddAspNetIdentity<ApplicationUser>()
+                .Services.AddScoped<IProfileService,ProfileService>();
+
+
+            //配置密码等一些规则
+            services.Configure<IdentityOptions>(options =>
+            {
+                options.Password.RequireLowercase = false;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequireDigit = false;
+                options.Password.RequiredLength = 6;
+            });
 
 			//services.Configure<CookiePolicyOptions>(options =>
 			//{

@@ -17,29 +17,35 @@ namespace AspNetCoreMvcAuthSample
 		/// <returns></returns>
 		public static IEnumerable<Client> GetClients()
 		{
-			return new List<Client>
-			{
-				new Client()
-				{
-					ClientId = "mvc", //客户端Id
+            return new List<Client>
+            {
+                new Client()
+                {
+                    ClientId = "mvc", //客户端Id
 					ClientName = "Jesen Mvc Client",
-					Description = "This is Jesen Info",
-					ClientUri = "http://localhost:5001",
-					LogoUri = "http://localhost:5000/img/logo.jpg",
-					AllowRememberConsent = true,
+                    Description = "This is Jesen Info",
+                    ClientUri = "http://localhost:5001",
+                    LogoUri = "http://localhost:5000/img/logo.jpg",
+                    AllowRememberConsent = true,
 
-					AllowedGrantTypes = { GrantType.Implicit }, //授权类型 : 隐式模式
+                    AllowedGrantTypes = GrantTypes.HybridAndClientCredentials,// { GrantType.Implicit }, //授权类型 : 隐式模式
 					ClientSecrets = { new Secret("secret".Sha256()) }, //密钥
 
 					RequireConsent = true, //是不是同意授权的页面
 					RedirectUris = { "http://localhost:5001/signin-oidc" },
-					PostLogoutRedirectUris = { "http://localhost:5001/signout-callback-oidc"},
+                    PostLogoutRedirectUris = { "http://localhost:5001/signout-callback-oidc"},
 
-					AllowedScopes = {
-						IdentityServerConstants.StandardScopes.Profile,
-						IdentityServerConstants.StandardScopes.OpenId,
+                    AllowedScopes = {
+                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.OfflineAccess,
+                        "api1"
 						//IdentityServerConstants.StandardScopes.Email,
-					} 
+					} ,
+
+                    AllowOfflineAccess = true,
+                    AllowAccessTokensViaBrowser = true,
+                    AlwaysIncludeUserClaimsInIdToken = true, //直接在Id Token中携带Claim
 				}
 			};
 		}

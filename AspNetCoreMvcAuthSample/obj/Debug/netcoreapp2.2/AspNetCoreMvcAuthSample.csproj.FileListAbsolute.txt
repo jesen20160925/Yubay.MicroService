@@ -31,12 +31,14 @@ F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\Razor
 F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
 F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\Razor\Views\Consent\Index.g.cshtml.cs
 F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\Razor\Views\Consent\_ScopeListItem.g.cshtml.cs
-G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\bin\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.dll
-G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\bin\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.Views.dll
+F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.csprojAssemblyReference.cache
 G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\bin\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.deps.json
 G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\bin\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.runtimeconfig.json
 G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\bin\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.runtimeconfig.dev.json
-G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.csprojAssemblyReference.cache
+G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\bin\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.dll
+G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\bin\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.pdb
+G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\bin\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.Views.dll
+G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\bin\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.Views.pdb
 G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.csproj.CoreCompileInputs.cache
 G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.RazorAssemblyInfo.cache
 G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.RazorAssemblyInfo.cs
@@ -62,7 +64,5 @@ G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNe
 G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.Views.pdb
 G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.dll
 G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.pdb
-G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\bin\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.pdb
-G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\bin\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.Views.pdb
 G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.csproj.CopyComplete
-F:\Repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.csprojAssemblyReference.cache
+G:\repo\Yubay.MicroService\AspNetCoreMvcAuthSample\obj\Debug\netcoreapp2.2\AspNetCoreMvcAuthSample.csprojAssemblyReference.cache
