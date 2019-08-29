@@ -12,3 +12,17 @@ G:\repo\Yubay.MicroService\Api1\obj\Debug\netcoreapp2.2\Api1.AssemblyInfo.cs
 G:\repo\Yubay.MicroService\Api1\obj\Debug\netcoreapp2.2\Api1.RazorTargetAssemblyInfo.cache
 G:\repo\Yubay.MicroService\Api1\obj\Debug\netcoreapp2.2\Api1.dll
 G:\repo\Yubay.MicroService\Api1\obj\Debug\netcoreapp2.2\Api1.pdb
+F:\Repo\IdentityServer4Sample\Api1\bin\Debug\netcoreapp2.2\Api1.deps.json
+F:\Repo\IdentityServer4Sample\Api1\bin\Debug\netcoreapp2.2\Api1.runtimeconfig.json
+F:\Repo\IdentityServer4Sample\Api1\bin\Debug\netcoreapp2.2\Api1.runtimeconfig.dev.json
+F:\Repo\IdentityServer4Sample\Api1\bin\Debug\netcoreapp2.2\Api1.dll
+F:\Repo\IdentityServer4Sample\Api1\bin\Debug\netcoreapp2.2\Api1.pdb
+F:\Repo\IdentityServer4Sample\Api1\obj\Debug\netcoreapp2.2\Api1.csprojAssemblyReference.cache
+F:\Repo\IdentityServer4Sample\Api1\obj\Debug\netcoreapp2.2\Api1.csproj.CoreCompileInputs.cache
+F:\Repo\IdentityServer4Sample\Api1\obj\Debug\netcoreapp2.2\Api1.RazorAssemblyInfo.cache
+F:\Repo\IdentityServer4Sample\Api1\obj\Debug\netcoreapp2.2\Api1.RazorAssemblyInfo.cs
+F:\Repo\IdentityServer4Sample\Api1\obj\Debug\netcoreapp2.2\Api1.AssemblyInfoInputs.cache
+F:\Repo\IdentityServer4Sample\Api1\obj\Debug\netcoreapp2.2\Api1.AssemblyInfo.cs
+F:\Repo\IdentityServer4Sample\Api1\obj\Debug\netcoreapp2.2\Api1.RazorTargetAssemblyInfo.cache
+F:\Repo\IdentityServer4Sample\Api1\obj\Debug\netcoreapp2.2\Api1.dll
+F:\Repo\IdentityServer4Sample\Api1\obj\Debug\netcoreapp2.2\Api1.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Repo\\Yubay.MicroService\\HybridModeClient\\HybridModeClient.csproj": {}
+    "F:\\Repo\\IdentityServer4Sample\\HybridModeClient\\HybridModeClient.csproj": {}
   },
   "projects": {
-    "F:\\Repo\\Yubay.MicroService\\HybridModeClient\\HybridModeClient.csproj": {
+    "F:\\Repo\\IdentityServer4Sample\\HybridModeClient\\HybridModeClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Repo\\Yubay.MicroService\\HybridModeClient\\HybridModeClient.csproj",
+        "projectUniqueName": "F:\\Repo\\IdentityServer4Sample\\HybridModeClient\\HybridModeClient.csproj",
         "projectName": "HybridModeClient",
-        "projectPath": "F:\\Repo\\Yubay.MicroService\\HybridModeClient\\HybridModeClient.csproj",
+        "projectPath": "F:\\Repo\\IdentityServer4Sample\\HybridModeClient\\HybridModeClient.csproj",
         "packagesPath": "C:\\Users\\23774\\.nuget\\packages\\",
-        "outputPath": "F:\\Repo\\Yubay.MicroService\\HybridModeClient\\obj\\",
+        "outputPath": "F:\\Repo\\IdentityServer4Sample\\HybridModeClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",

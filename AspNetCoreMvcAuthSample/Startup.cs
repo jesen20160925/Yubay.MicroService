@@ -146,7 +146,9 @@ namespace AspNetCoreMvcAuthSample
             {
                 scope.ServiceProvider.GetRequiredService<PersistedGrantDbContext>()
                     .Database.Migrate();
-                var configurationDbContext = scope.ServiceProvider.GetRequiredService<ConfigurationDbContext>();
+				scope.ServiceProvider.GetRequiredService<ConfigurationDbContext>()
+				   .Database.Migrate();
+				var configurationDbContext = scope.ServiceProvider.GetRequiredService<ConfigurationDbContext>();
                 if (!configurationDbContext.Clients.Any())
                 {
                     foreach(var client in Config.GetClients())

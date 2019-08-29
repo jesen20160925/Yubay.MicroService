@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Repo\\Yubay.MicroService\\PwdClient\\PwdClient.csproj": {}
+    "F:\\Repo\\IdentityServer4Sample\\PwdClient\\PwdClient.csproj": {}
   },
   "projects": {
-    "F:\\Repo\\Yubay.MicroService\\PwdClient\\PwdClient.csproj": {
+    "F:\\Repo\\IdentityServer4Sample\\PwdClient\\PwdClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Repo\\Yubay.MicroService\\PwdClient\\PwdClient.csproj",
+        "projectUniqueName": "F:\\Repo\\IdentityServer4Sample\\PwdClient\\PwdClient.csproj",
         "projectName": "PwdClient",
-        "projectPath": "F:\\Repo\\Yubay.MicroService\\PwdClient\\PwdClient.csproj",
+        "projectPath": "F:\\Repo\\IdentityServer4Sample\\PwdClient\\PwdClient.csproj",
         "packagesPath": "C:\\Users\\23774\\.nuget\\packages\\",
-        "outputPath": "F:\\Repo\\Yubay.MicroService\\PwdClient\\obj\\",
+        "outputPath": "F:\\Repo\\IdentityServer4Sample\\PwdClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",

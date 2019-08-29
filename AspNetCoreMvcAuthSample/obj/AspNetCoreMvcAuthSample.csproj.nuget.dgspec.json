@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Repo\\Yubay.MicroService\\AspNetCoreMvcAuthSample\\AspNetCoreMvcAuthSample.csproj": {}
+    "F:\\Repo\\IdentityServer4Sample\\AspNetCoreMvcAuthSample\\AspNetCoreMvcAuthSample.csproj": {}
   },
   "projects": {
-    "F:\\Repo\\Yubay.MicroService\\AspNetCoreMvcAuthSample\\AspNetCoreMvcAuthSample.csproj": {
+    "F:\\Repo\\IdentityServer4Sample\\AspNetCoreMvcAuthSample\\AspNetCoreMvcAuthSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Repo\\Yubay.MicroService\\AspNetCoreMvcAuthSample\\AspNetCoreMvcAuthSample.csproj",
+        "projectUniqueName": "F:\\Repo\\IdentityServer4Sample\\AspNetCoreMvcAuthSample\\AspNetCoreMvcAuthSample.csproj",
         "projectName": "AspNetCoreMvcAuthSample",
-        "projectPath": "F:\\Repo\\Yubay.MicroService\\AspNetCoreMvcAuthSample\\AspNetCoreMvcAuthSample.csproj",
+        "projectPath": "F:\\Repo\\IdentityServer4Sample\\AspNetCoreMvcAuthSample\\AspNetCoreMvcAuthSample.csproj",
         "packagesPath": "C:\\Users\\23774\\.nuget\\packages\\",
-        "outputPath": "F:\\Repo\\Yubay.MicroService\\AspNetCoreMvcAuthSample\\obj\\",
+        "outputPath": "F:\\Repo\\IdentityServer4Sample\\AspNetCoreMvcAuthSample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -48,6 +48,10 @@
               "version": "[2.4.0, )"
             },
             "IdentityServer4.AspNetIdentity": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "IdentityServer4.EntityFramework": {
               "target": "Package",
               "version": "[2.4.0, )"
             },

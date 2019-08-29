@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Repo\\Yubay.MicroService\\MVCClient\\MVCClient.csproj": {}
+    "F:\\Repo\\IdentityServer4Sample\\MVCClient\\MVCClient.csproj": {}
   },
   "projects": {
-    "F:\\Repo\\Yubay.MicroService\\MVCClient\\MVCClient.csproj": {
+    "F:\\Repo\\IdentityServer4Sample\\MVCClient\\MVCClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Repo\\Yubay.MicroService\\MVCClient\\MVCClient.csproj",
+        "projectUniqueName": "F:\\Repo\\IdentityServer4Sample\\MVCClient\\MVCClient.csproj",
         "projectName": "MVCClient",
-        "projectPath": "F:\\Repo\\Yubay.MicroService\\MVCClient\\MVCClient.csproj",
+        "projectPath": "F:\\Repo\\IdentityServer4Sample\\MVCClient\\MVCClient.csproj",
         "packagesPath": "C:\\Users\\23774\\.nuget\\packages\\",
-        "outputPath": "F:\\Repo\\Yubay.MicroService\\MVCClient\\obj\\",
+        "outputPath": "F:\\Repo\\IdentityServer4Sample\\MVCClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",

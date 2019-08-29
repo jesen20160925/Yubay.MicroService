@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Repo\\Yubay.MicroService\\ThirdPartyClient\\ThirdPartyClient.csproj": {}
+    "F:\\Repo\\IdentityServer4Sample\\ThirdPartyClient\\ThirdPartyClient.csproj": {}
   },
   "projects": {
-    "F:\\Repo\\Yubay.MicroService\\ThirdPartyClient\\ThirdPartyClient.csproj": {
+    "F:\\Repo\\IdentityServer4Sample\\ThirdPartyClient\\ThirdPartyClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Repo\\Yubay.MicroService\\ThirdPartyClient\\ThirdPartyClient.csproj",
+        "projectUniqueName": "F:\\Repo\\IdentityServer4Sample\\ThirdPartyClient\\ThirdPartyClient.csproj",
         "projectName": "ThirdPartyClient",
-        "projectPath": "F:\\Repo\\Yubay.MicroService\\ThirdPartyClient\\ThirdPartyClient.csproj",
+        "projectPath": "F:\\Repo\\IdentityServer4Sample\\ThirdPartyClient\\ThirdPartyClient.csproj",
         "packagesPath": "C:\\Users\\23774\\.nuget\\packages\\",
-        "outputPath": "F:\\Repo\\Yubay.MicroService\\ThirdPartyClient\\obj\\",
+        "outputPath": "F:\\Repo\\IdentityServer4Sample\\ThirdPartyClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",

@@ -20,3 +20,14 @@ G:\repo\Yubay.MicroService\ThirdPartyClient\obj\Debug\netcoreapp2.2\ThirdPartyCl
 G:\repo\Yubay.MicroService\ThirdPartyClient\obj\Debug\netcoreapp2.2\ThirdPartyClient.AssemblyInfo.cs
 G:\repo\Yubay.MicroService\ThirdPartyClient\obj\Debug\netcoreapp2.2\ThirdPartyClient.dll
 G:\repo\Yubay.MicroService\ThirdPartyClient\obj\Debug\netcoreapp2.2\ThirdPartyClient.pdb
+F:\Repo\IdentityServer4Sample\ThirdPartyClient\bin\Debug\netcoreapp2.2\ThirdPartyClient.deps.json
+F:\Repo\IdentityServer4Sample\ThirdPartyClient\bin\Debug\netcoreapp2.2\ThirdPartyClient.runtimeconfig.json
+F:\Repo\IdentityServer4Sample\ThirdPartyClient\bin\Debug\netcoreapp2.2\ThirdPartyClient.runtimeconfig.dev.json
+F:\Repo\IdentityServer4Sample\ThirdPartyClient\bin\Debug\netcoreapp2.2\ThirdPartyClient.dll
+F:\Repo\IdentityServer4Sample\ThirdPartyClient\bin\Debug\netcoreapp2.2\ThirdPartyClient.pdb
+F:\Repo\IdentityServer4Sample\ThirdPartyClient\obj\Debug\netcoreapp2.2\ThirdPartyClient.csprojAssemblyReference.cache
+F:\Repo\IdentityServer4Sample\ThirdPartyClient\obj\Debug\netcoreapp2.2\ThirdPartyClient.csproj.CoreCompileInputs.cache
+F:\Repo\IdentityServer4Sample\ThirdPartyClient\obj\Debug\netcoreapp2.2\ThirdPartyClient.AssemblyInfoInputs.cache
+F:\Repo\IdentityServer4Sample\ThirdPartyClient\obj\Debug\netcoreapp2.2\ThirdPartyClient.AssemblyInfo.cs
+F:\Repo\IdentityServer4Sample\ThirdPartyClient\obj\Debug\netcoreapp2.2\ThirdPartyClient.dll
+F:\Repo\IdentityServer4Sample\ThirdPartyClient\obj\Debug\netcoreapp2.2\ThirdPartyClient.pdb

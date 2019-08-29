@@ -20,3 +20,14 @@ G:\repo\Yubay.MicroService\PwdClient\obj\Debug\netcoreapp2.2\PwdClient.AssemblyI
 G:\repo\Yubay.MicroService\PwdClient\obj\Debug\netcoreapp2.2\PwdClient.AssemblyInfo.cs
 G:\repo\Yubay.MicroService\PwdClient\obj\Debug\netcoreapp2.2\PwdClient.dll
 G:\repo\Yubay.MicroService\PwdClient\obj\Debug\netcoreapp2.2\PwdClient.pdb
+F:\Repo\IdentityServer4Sample\PwdClient\bin\Debug\netcoreapp2.2\PwdClient.deps.json
+F:\Repo\IdentityServer4Sample\PwdClient\bin\Debug\netcoreapp2.2\PwdClient.runtimeconfig.json
+F:\Repo\IdentityServer4Sample\PwdClient\bin\Debug\netcoreapp2.2\PwdClient.runtimeconfig.dev.json
+F:\Repo\IdentityServer4Sample\PwdClient\bin\Debug\netcoreapp2.2\PwdClient.dll
+F:\Repo\IdentityServer4Sample\PwdClient\bin\Debug\netcoreapp2.2\PwdClient.pdb
+F:\Repo\IdentityServer4Sample\PwdClient\obj\Debug\netcoreapp2.2\PwdClient.csprojAssemblyReference.cache
+F:\Repo\IdentityServer4Sample\PwdClient\obj\Debug\netcoreapp2.2\PwdClient.csproj.CoreCompileInputs.cache
+F:\Repo\IdentityServer4Sample\PwdClient\obj\Debug\netcoreapp2.2\PwdClient.AssemblyInfoInputs.cache
+F:\Repo\IdentityServer4Sample\PwdClient\obj\Debug\netcoreapp2.2\PwdClient.AssemblyInfo.cs
+F:\Repo\IdentityServer4Sample\PwdClient\obj\Debug\netcoreapp2.2\PwdClient.dll
+F:\Repo\IdentityServer4Sample\PwdClient\obj\Debug\netcoreapp2.2\PwdClient.pdb
